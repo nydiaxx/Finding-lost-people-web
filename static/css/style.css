@@ -1,0 +1,208 @@
+/* Navigation Bar */
+
+
+.bgcolor {
+    background-color: #ff9523 !important;
+}
+
+.nav-link {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: black !important;
+}
+
+.navbar-brand {
+    font-family: copperplate;
+    color: black;
+}
+
+.navbar-brand:hover {
+    color: black;
+}
+
+/* Jumbotron */
+
+.jumbotron {
+    background-image: url('../images/Path\ 1.png');
+    background-size:cover;
+    height: 730px;
+}
+
+.jumbotron img {
+    height: 400px;
+    width: 800px;
+    margin-top: 200px;
+    margin-left: -170px;
+}
+
+.display-4 {
+    color: black;
+    padding-top: 250px;
+    font-weight: 200;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
+    text-align: left;
+    font-style: italic;
+    font-size: 45px;
+    margin-left: 40px;
+}
+
+
+
+.jumbotron .display-4 span {
+    font-weight: 500;
+    font-style: normal;
+}
+
+.btn-start {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    padding-top: 10px;
+    background-color: black;
+    width: 170px;
+    height: 50px;
+    border-radius: 35px;
+    margin-top: 20px;
+    margin-left: 40px;
+}
+
+.btn-start:hover {
+    color: white;
+    background-color: #ff9523;
+}
+
+/* Features */
+
+.features {
+    margin-top: 50px;
+    margin-left: 75px;
+}
+
+.features h1 {
+    text-align: center;
+    font-weight: 700;
+}
+
+.features p {
+    text-align:justify;
+    font-size: 23px;
+}
+
+.features img {
+    height: 200px;
+    width: 400px;
+}
+
+.feature-left {
+    margin-top: 100px;
+}
+
+.feature-left img {
+    float: left;
+    margin-right: 50px;
+}
+
+.feature-right {
+    margin-top: 100px;
+}
+
+.feature-right h2 {
+    margin-left: 270px;
+}
+
+.feature-right p {
+    margin-left: 270px;
+}
+
+.feature-right .btn {
+    margin-top: 5px;
+    margin-left: 270px;
+    height: 40px;
+    width: 130px;
+    font-size: 13px;
+}
+
+.feature-right img {
+    float: right;
+    margin-right: 60px;
+}
+
+.feature-left .btn {
+    margin-top: 5px;
+    margin-left: 5px;
+    height: 40px;
+    width: 130px;
+    font-size: 13px;
+}
+
+/* About */
+.about-us {
+    margin-top: 50px;
+    margin-left: 0px;
+}
+
+.about-us h1 {
+    text-align: center;
+    font-weight: 700;
+}
+
+.about-us img {
+    height: 450px;
+    width: 600px;
+}
+
+.about-us .row {
+    margin-top: 100px;
+}
+
+.about-us p {
+    text-align:justify;
+    font-size: 23px;
+    margin-top: 70px;
+    margin-left: -80px;
+}
+
+.about-us span {
+    font-weight: 500;
+    color: #ff9523;
+}
+
+/* Developer */
+
+.developers h1 {
+    text-align: center;
+    font-weight: 700;
+}
+
+.developers {
+    margin-top: 75px;
+}
+
+.developers img {
+    height: 170px;
+    width: 170px;
+    border-radius: 50%;
+}
+
+.developers .row {
+    margin-top: 100px;
+    text-align: center;
+}
+
+.developers p {
+    margin-top: 40px;
+    font-weight: 500;
+}
+
+/* Desktop Version */
+@media (min-width: 992px){
+    .nav-link:hover::after {
+        content: '';
+        display: block;
+        border-bottom: 3px solid #000;
+        width: 50%;
+        margin: auto;
+        padding-bottom: 5px;
+        margin-bottom: -8px;
+    }
+
+}
