@@ -1,13 +1,22 @@
 /* Navigation Bar */
 
+nav {
+    transition: background 250ms ease-in;
+}
 
-.bgcolor {
-    background-color: #ff9523 !important;
+.nav-scrolled {
+    --text: black;
+    --text-inverse: white;
+    background: #ff9523;
+
+    box-shadow: 0 3px 20px rgba(black, 0.2);
 }
 
 .nav-link {
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
+    font-size: 20px;
+    margin-left: 20px;
     color: black !important;
 }
 
@@ -32,7 +41,7 @@
     height: 400px;
     width: 800px;
     margin-top: 200px;
-    margin-left: -170px;
+    margin-left: -180px;
 }
 
 .display-4 {
@@ -191,6 +200,37 @@
 .developers p {
     margin-top: 40px;
     font-weight: 500;
+}
+
+/* REGISTER */
+
+.register {
+    height: 730px;
+}
+
+.register-left {
+    background-color: #ff9523;
+    text-align: center;
+}
+
+.register-left h1 {
+    margin-top: 330px;
+}
+
+.register-right {
+    margin-top: 150px;
+}
+
+.register .btn {
+    height: 40px;
+    width: 130px;
+    font-size: 13px;
+    margin-left: 500px;
+}
+
+.register input {
+    width: 70%;
+    margin-left:110px;
 }
 
 /* Desktop Version */

@@ -9,12 +9,12 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href={{ url_for('static', filename='/css/style.css') }} type="text/css">
 
-    <title>Hello, world!</title>
+    <title>POSSIBLE</title>
   </head>
   <body>
 
     <!-- Header -->
-    <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top nav-scrolled">
         <div class="container">
           <div class="navbar-header">
             <img src={{ url_for('static', filename='/images/') }} alt="Logo" 
@@ -77,7 +77,7 @@
           Data diri akan masuk ke dalam database milik POSSIBLE. <br>
           Pelapor akan dihubungi jika orang yang hilang ditemukan.
           </p>
-          <a class="btn btn-start" href="">REGISTER</a>
+          <a class="btn btn-start" href="/register">REGISTER</a>
          </div>
         </div>
 
@@ -168,13 +168,7 @@
       </div>
 
 
-     <script>
-      $(window).scroll(function() { 
-        if ($(document).scrollTop() > 50) { 
-          $('nav').addClass('bgcolor'); } 
-          else { 
-        $('nav').removeClass('bgcolor'); } });
-    </script>
+    <script src="/static/js/client-side.js"></script>
     <!-- Optional JavaScript; choose one of the two! -->
 
     <!-- Option 1: Bootstrap Bundle with Popper -->
