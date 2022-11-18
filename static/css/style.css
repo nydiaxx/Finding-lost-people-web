@@ -234,7 +234,7 @@ nav {
 }
 
 /* Desktop Version */
-@media (min-width: 992px){
+@media (min-width: 700px){
     .nav-link:hover::after {
         content: '';
         display: block;
